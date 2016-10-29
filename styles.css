@@ -1,0 +1,53 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background: #16222A; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #16222A , #3A6073); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #16222A , #3A6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button {
+	margin: 0 auto;
+}
+
+h1 {
+	margin: 0;
+	display: inline-block;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+h3 {
+	margin-bottom: 30px;
+}
+
+.jumbotron {
+	background-color: rgba(255, 255, 255, 0.5);
+	background: url(img/badger.jpg);
+	background-size: cover;
+	height: 500px;
+	margin-top: 70px;
+	padding-top: 20px;
+}
+
+.thumbnail {
+	height: 174px;
+	border: 1px solid black;
+}
+
+.caption {
+	height: 164px;
+}
+
+.btn{
+	text-align: center;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 40;
+}
+
+.navbar {
+	border-radius: 0;
+}

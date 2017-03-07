@@ -96,36 +96,43 @@
 </body>
 <script type="text/javascript">
     console.log("attached!")
-
-    var sound = new Howl({
-        src: 'sounds/badger.mp3',
-        sprite: {
-            deal1: [0, 3700],
-            popcornBreak: [99000, 2250],
-            doICare: [110000, 1500],
-            kapowee: [200200, 1500],
-            youGotMoney: [80100, 4700],
-            seeThisSuit: [102800, 5000]
-        }
+    
+    var deal1 = new Howl({
+        src: ['sounds/deal1.mp3']
+    });
+    var popcornBreak = new Howl({
+        src: ['sounds/popcornBreak.mp3']
+    });
+    var doICare = new Howl({
+        src: ['sounds/doICare.mp3']
+    });
+    var kapowee = new Howl({
+        src: ['sounds/kapowee.mp3']
+    });
+    var youGotMoney = new Howl({
+        src: ['sounds/youGotMoney.mp3']
+    });
+    var seeThisSuit = new Howl({
+        src: ['sounds/seeThisSuit.mp3']
     });
 
     $("#deal1").click(function() {
-        sound.play('deal1');
+        deal1.play();
     });
     $("#popcornBreak").click(function() {
-        sound.play('popcornBreak');
+        popcornBreak.play();
     });
     $("#doICare").click(function() {
-        sound.play('doICare');
+        doICare.play();
     });
     $("#kapowee").click(function() {
-        sound.play('kapowee');
+        kapowee.play();
     });
     $("#youGotMoney").click(function() {
-        sound.play('youGotMoney');
+        youGotMoney.play();
     });
     $("#seeThisSuit").click(function() {
-        sound.play('seeThisSuit');
+        seeThisSuit.play();
     });
 </script>
 
